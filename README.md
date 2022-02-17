@@ -25,8 +25,10 @@ For tests:
 Jest: This one of the most used libs for testing, and the one i most used to use.(https://jestjs.io/docs/next/getting-started)
 
 Tools that helped me a lot while developing: 
-Postman: place where i can simulate queries from the front end in the back end. (https://learning.postman.com/docs/publishing-your-api/documenting-your-api/)
-Nodemon: with this tool you can keep your servers online even when making changes in the code, what helps a lot. (https://www.npmjs.com/package/nodemon)
+Postman: place where i can simulate queries from the front end in the back end. 
+(https://learning.postman.com/docs/publishing-your-api/documenting-your-api/)
+Nodemon: with this tool you can keep your servers online even when making changes in the code, what helps a lot.
+(https://www.npmjs.com/package/nodemon)
 
 
 **************************************************
