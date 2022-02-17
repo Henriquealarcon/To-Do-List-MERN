@@ -13,6 +13,23 @@ Step 3 -
 In linux give this following commands on terminal *cd client* then *npm start* to run the front-end React based application. (Not finished and in need of fix.).
 For the application of back end follow this: *cd server* then *npm start* (Working correctly but not with all the features).
 
+************Libs used in this project.************
+Back-End:
+
+Express: A node module to make connections and routes http with NodeJs.(https://nodejs.org/en/docs/)
+MongoDb: Non relational database i used in this project, its very familiar once starts to use.(https://docs.mongodb.com/)
+Rescue:It helps assure that all errors are passing trough middelwares. High recomended.(https://www.npmjs.com/package/express-rescue)
+Jsonwebtoken:Lib that can generate and authenticate tokens, perfect for login issues.(https://jwt.io/)
+
+For tests:
+Jest: This one of the most used libs for testing, and the one i most used to use.(https://jestjs.io/docs/next/getting-started)
+
+Tools that helped me a lot while developing: 
+Postman: place where i can simulate queries from the front end in the back end. (https://learning.postman.com/docs/publishing-your-api/documenting-your-api/)
+Nodemon: with this tool you can keep your servers online even when making changes in the code, what helps a lot. (https://www.npmjs.com/package/nodemon)
+
+
+**************************************************
 
 -- Features Working right in the moment (for now only backend)--
 
