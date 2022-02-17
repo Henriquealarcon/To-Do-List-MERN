@@ -4,6 +4,6 @@ const {createUser} = require('./register');
 
 const router = express.Router({mergeParams: true});
 
-router.post('/ebytr', rescue(createUser));
+router.post('/', rescue(createUser));
 
 module.exports = router;
