@@ -1,7 +1,4 @@
 const User = require('../../models/user.model');
-const ApiError = require('../../error/error');
-
-const {NewError} = ApiError;
 
 const createUser = async (req, res) => {
     console.log(req.body, 'reqbody')
@@ -11,6 +8,7 @@ const createUser = async (req, res) => {
             email,
             password
         })
+        req.user = user.id;
         return res.status(201).json(user);
 };
 

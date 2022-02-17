@@ -3,7 +3,7 @@ const rescue = require('express-rescue');
 const { emailLoginValidation,
         passwordLoginValidation, 
         loginValidation,
-        tokenGenerator } = require('../validations/validations');
+        tokenGenerator } = require('../../validations/validations');
 const { newLogin } = require('./login');
 
 const router = express.Router({ mergeParams: true });

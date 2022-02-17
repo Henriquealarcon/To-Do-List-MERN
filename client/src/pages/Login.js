@@ -7,21 +7,19 @@ function App() {
 
   async function registerLogin(event) {
     event.preventDefault();
-    const payload = {email, password};
-
-    const data = new FormData();
-
-    data.append('json', JSON.stringify (payload));
     
-    await fetch('http://localhost:3200/ebytr/login', {
+    const response = await fetch('http://localhost:3200/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json;',
-        'Acept': 'application/json'
       },
-      body: data
+      body: JSON.stringify()({
+        email: email,
+        password: password
+      })
     })
-
+    const data = response.json();
+    return data;
   }
 
   return <div>
